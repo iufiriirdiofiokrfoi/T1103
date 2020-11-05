@@ -11,41 +11,14 @@
     <link rel="stylesheet" href="themes/aaa.css" />
     <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
-
-
-
     
+    <link rel="stylesheet" href="style.css">
+
     <link rel="icon" href="hedgehog.png" sizes="60x60" type="image/x-icon">
     <title>1013</title>
 </head>
 
-<style>
 
-    #page02 .ui-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #page00 > .ui-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:column;
-        text-align: center;
-    }
-
-    #page04 > .ui-content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-
-</style>
 
 <body>
     <!--首頁-->
@@ -58,29 +31,35 @@
         </div><!-- /header -->
 
         <div role="main" class="ui-content">
+                <p>人生像是一盒巧克力<br>來伊美奇體驗各式人生吧！</p>
+                <img src="dark.jpg" alt="" height="550" width="500" class="darkimg"><br>                
 
-            <p>人生像是一盒巧克力<br>來伊美奇體驗各式人生吧！</p>
-            <img src="dark.jpg" alt="" height="550" width="500" class="darkimg"><br>
 
             <ul data-role="listview" data-inset="true">
                 <li><a href="#page01">
                     <img src="../_assets/img/album-bb.jpg">
-                <h2>關於伊美奇</h2>
-                <p>Broken Bells</p></a>
+                    <h2>關於伊美奇</h2>
+                    <p>Broken Bells</p></a>
                 </li>
             
             
-                <li><a href="#">
+                <li><a href="#page02">
                     <img src="../_assets/img/album-hc.jpg">
-                <h2>Warning</h2>
-                <p>Hot Chip</p></a>
+                    <h2>巧克力即享</h2>
+                    <p>Hot Chip</p></a>
                 </li>
             
             
-                <li><a href="#">
+                <li><a href="#page03">
                     <img src="../_assets/img/album-p.jpg">
-                <h2>Wolfgang Amadeus Phoenix</h2>
-                <p>Phoenix</p></a>
+                    <h2>關於我們</h2>
+                    <p>Phoenix</p></a>
+                </li>
+
+                <li><a href="#page04">
+                    <img src="../_assets/img/album-p.jpg">
+                    <h2>門市據點</h2>
+                    <p>Phoenix</p></a>
                 </li>
             </ul>
 
@@ -88,14 +67,7 @@
 
         <div data-role="footer" data-position="fixed">
 
-            <div data-role="navbar">
-                <ul>
-                    <li><a href="#page01" data-icon="bullets" data-transition="fade">/a></li>
-                    <li><a href="#page02" data-icon="bullets" data-transition="slideup">巧克力即享</a></li>
-                    <li><a href="#aboutus" data-icon="bullets" data-transition="slide">關於我們</a></li>
-                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
-                </ul>
-            </div>
+           
             
             
 
